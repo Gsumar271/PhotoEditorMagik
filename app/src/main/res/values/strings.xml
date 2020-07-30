@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Photo Editor Magik</string>
+    <string name="admob_appid">ca-app-pub-5676323909952561~1246272607</string>
+    <string name="admob_appid_test">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="file_provider_authority" translatable="false">com.athings.photoeditor.fileprovider</string>
+
+    <string name="error_img_not_found">Oops! please try again.</string>
+
+    <string name="internal_storage">Internal storage</string>
+    <string name="error_apply_effect">Oops! please try again.</string>
+
+    <string name="please_wait">Please wait</string>
+    <string name="exit_prompt">Are you sure that you want to close editor?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="no_media">Error: your SD-Card is not available.</string>
+
+    <string name="saved">Please find your image at:\n:url:"</string>
+    <string name="save_failed">Oops! please try again.</string>
+
+
+    <string name="redL">Red</string>
+    <string name="greenL">Green</string>
+    <string name="blueL">Blue</string>
+
+    <string name="hue">Hue: :value:\u00B0</string>
+    <string name="sat">Saturation: :value:%</string>
+    <string name="brightness">Brightness: :value:%</string>
+    <string name="contrast">Contrast: :value:</string>
+    <string name="rotate">Angle: :value:\u00B0</string>
+    <string name="flip_v">Horizon.</string>
+    <string name="flip_h">Vertical</string>
+    <string name="red">Red: :value:</string>
+    <string name="green">Green: :value:</string>
+    <string name="blue">Blue: :value:</string>
+    <string name="redP">Red: :value:%</string>
+    <string name="greenP">Green: :value:%</string>
+    <string name="blueP">Blue: :value:%</string>
+    <string name="cdepth">Color Depth: :value:</string>
+
+    <string name="effect1">Brightness</string>
+    <string name="effect2">Flip</string>
+    <string name="effect3">Hue</string>
+    <string name="effect4">Tint</string>
+    <string name="effect5">Gamma</string>
+    <string name="effect6">Invert</string>
+    <string name="effect7">Grayscale</string>
+    <string name="effect8">Sepia</string>
+    <string name="effect9">Sharpen</string>
+    <string name="effect10">Gau. Blur</string>
+    <string name="effect11">C. Filter</string>
+    <string name="effect12">C. Depth</string>
+    <string name="effect13">Emboss</string>
+    <string name="effect14">Boost</string>
+    <string name="effect15">Noise</string>
+    <string name="effect16">Sketch</string>
+    <string name="effect17">Vignette</string>
+    <string name="effect18">Saturation</string>
+    <string name="effect19">Contrast</string>
+    <string name="img_desc">Images</string>
+    <string name="app_name_pro">Camera</string>
+    <string name="app_name_track">App</string>
+    <string name="no_whatsapp_app">No Whatsup app</string>
+    <string name="no_facebook_app">No Facebook app</string>
+    <string name="no_instagram_app">No Instagram App</string>
+    <string name="saved_image_message">Photo saved successfully</string>
+    <string name="tab_title_stores">Share</string>
+
+    <string-array name="photo_main_layout_array">
+        <item>Tools</item>
+        <item>Blur</item>
+        <item>Crop</item>
+        <item>Background</item>
+        <item>Frame</item>
+        <item>Sticker</item>
+        <item>Filter</item>
+        <item>Fx</item>
+        <item>Text</item>
+
+    </string-array>
+    <string-array name="blur_main_layout_array">
+        <item>Layout</item>
+        <item>Blur</item>
+        <item>Background</item>
+        <item>Space</item>
+        <item>Sticker</item>
+        <item>Filter</item>
+        <item>FX</item>
+        <item>Text</item>
+
+    </string-array>
+    <string name="settings_default_color_confirm">Default Color</string>
+    <string name="settings_bg_color_confirm">Tap here to Confirm</string>
+    <string name="settings_bg_color_dialog">Pick a Color</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="select_btn">Select</string>
+
+    <string name="okay_text">Ok</string>
+    <string name="camera_permission_required_msg">Camera Permission Required</string>
+    <string name="camera_permission_granted_msg">Camera Permission Granted</string>
+    <string name="camera_permission_not_granted_msg">Camera permission not granted</string>
+    <string name="canvas_text_color">Color</string>
+    <string name="preview_text">Preview Text</string>
+    <string name="canvas_text_hint">Preview Text</string>
+    <string name="canvas_text_enter_text">Please enter text</string>
+    <string name="directory">/Photo Collage/</string>
+    <string name="select_more_apps">Select more apps</string>
+    <string name="save_image_directory_error_message">image errror</string>
+    <string name="loading_image">Loading image</string>
+    <string name="effect_parameter_bundle_name">global_parameter</string>
+    <string name="tilt_none">None</string>
+    <string name="tilt_radial">Radial</string>
+    <string name="tilt_linear">Linear</string>
+    <string name="gallery_select_an_album">Select Album</string>
+    <string name="gallery_no_more">No More %d item</string>
+    <string name="gallery_select_one">Select %d item</string>
+    <string name="changelog_full_title">Full Title</string>
+    <string name="changelog_title">Change Log</string>
+    <string name="changelog_show_full">Show Full</string>
+    <string name="changelog_ok_button">Ok</string>
+    <string name="crop_getting_image">Getting the cropped image!</string>
+    <string name="hashtag_twitter">#tag</string>
+
+    <string name="gallery_lib_max">Max %d</string>
+    <string name="crop_file_name">.appdata</string>
+
+    <string name="permission_education_message">"Photo access permission is required to create photo collages and to edit photos. Without this permission, application won't work!"</string>
+    <string name="permission_education_title">Permission Denied</string>
+
+    <string name="save_image_lib_no_camera">There is no Camera app to handle this request!</string>
+    <string name="save_image_lib_no_gallery">There are no gallery applications installed.</string>
+
+    <string name="collage_lib_delete_message">Do you want to delete image?</string>
+
+    <string name="recommand_message">Let me recommend you this application!</string>
+
+</resources>

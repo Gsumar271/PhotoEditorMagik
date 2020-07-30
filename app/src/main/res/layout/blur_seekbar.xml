@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/blurSeekbarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:visibility="gone">
+
+    <SeekBar
+        android:id="@+id/blurSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_toLeftOf="@+id/seekBarProgressText"
+        android:indeterminate="false"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+
+    <TextView
+        android:id="@+id/seekBarProgressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/blurSeekbar"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="50dp"
+        android:max="25"
+        android:padding="@dimen/padding_normal"
+        android:text="25"
+        android:textColor="@color/text_white" />
+
+</RelativeLayout>

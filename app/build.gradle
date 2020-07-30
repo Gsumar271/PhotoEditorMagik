@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '28.0.2'
+
+    defaultConfig {
+        applicationId "com.athings.photoeditor"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 3
+        versionName "1.2"
+
+        renderscriptTargetApi 18
+        renderscriptSupportModeEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.google.android.gms:play-services-ads:17.0.0'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.commit451:NativeStackBlur:1.0.2'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.intuit.sdp:sdp-android:1.0.5'
+    implementation 'com.facebook.android:audience-network-sdk:4.99.1'
+    implementation 'com.github.QuadFlask:colorpicker:0.0.13'
+}
